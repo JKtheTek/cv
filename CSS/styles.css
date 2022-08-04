@@ -1,5 +1,5 @@
 body{
-  background-color: #A5C9CA;;}
+  background-color: #A5C9CA;}
 
 hr{
 border-style:none;
@@ -11,3 +11,7 @@ Width:8%}
 h1{color:#61481C;font-family: "Lucida Bright";}
 
 h3{color:#A47E3B; font-family: Consolas;}
+
+a:hover{font-family:sans-serif; color: red;
+
+}

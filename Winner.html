@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head><center>
-      <h1> Winner winner</h1>
+
+<head>
+  <center>
+    <h1> Winner winner</h1>
     <meta charset="utf-8">
     <title>Who won?!?</title>
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <hr>
-  <body>
-<h1>Congratulations click below to claim a prize!</h1> <br>
+</head>
+<hr>
 
-<a id="myButton" href="#">
+<body>
+  <h1>Congratulations click below to claim a prize!</h1> <br>
+
+  <a id="myButton" href="#">
 
     Click <strong>HERE</strong> to choose winrar!!!!!
 
-</a>
+  </a>
 
-<div id="myRandomDiv">
+  <div id="myRandomDiv">
 
-</div>
+  </div>
 
-<script type="text/javascript" charset="utf-8">
-
+  <script type="text/javascript" charset="utf-8">
     var randomStrings = [
 
-        "Doug",
+      "Doug",
 
-        "Newman",
+      "Newman",
 
-        "Tony",
+      "Tony",
 
-        "Doug",
+      "Doug",
 
-        "Newman",
+      "Newman",
 
-        "Tony",
+      "Tony",
 
-        "Sean"
+      "Sean",
+
+      "Harry",
 
     ];
 
@@ -44,15 +48,15 @@
 
     document.getElementById("myButton").addEventListener("click", function() {
 
-          randomIndex = Math.ceil((Math.random()*randomStrings.length-1));
+      randomIndex = Math.ceil((Math.random() * randomStrings.length - 1));
 
-          newText = randomStrings[randomIndex];
+      newText = randomStrings[randomIndex];
 
-          randomDiv.innerHTML = newText;
+      randomDiv.innerHTML = newText;
 
     });
+  </script><br><br><br>
+  <a href="index.html">Home</a>
+</body>
 
-</script><br><br><br>
-<a href="index.html">Home</a>
-  </body>
 </html>
